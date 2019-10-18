@@ -6,7 +6,7 @@ class User extends React.Component {
         this.state = {
             username: ''
         }
-        
+
         this.onChange = this.onChange.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
     }
@@ -17,7 +17,8 @@ class User extends React.Component {
     }
 
     onSubmit(e) {
-
+        e.preventDefault();
+        this.props.onSubmit(this.state.username);
     }
 
     render() {
