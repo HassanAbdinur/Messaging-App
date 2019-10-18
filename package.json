@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --write \"src/**/*.js\"",
-    "eslint-fix": “eslint --fix \"src/**/*.js\"",
+    "eslint-fix": "eslint --fix \"src/**/*.js\"",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -36,6 +36,7 @@
     "eslint-config-react": "^1.1.7",
     "eslint-loader": "^3.0.2",
     "eslint-plugin-react": "^7.16.0",
+    "html-webpack-plugin": "^3.2.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "prettier": "1.18.2",
