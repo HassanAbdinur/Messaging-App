@@ -7,12 +7,17 @@ class User extends React.Component {
             username: ''
         }
     }
+    onChange(e) {
+        this.setState({
+            username: e.target.value,
+        })
+    }
 
     render() {
         return (
             <div>
-                <form>
-                    <input type="text" placeholder="What is your username" />
+                <form onSubmit={this.onSubmit}>
+                    <input type="text" placeholder="What is your username" onChange={this.onChange} />
                     <input type="submit" />
                 </form>
             </div>
