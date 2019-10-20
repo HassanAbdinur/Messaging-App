@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import UsernameForm from './Components/UsernameForm';
 
 class App extends Component {
     render () {
         return (
             <div>
-                <h1>Chat App</h1>
+                <UsernameForm onSubmit={username => alert(username)}/>
             </div>
         );
     }
