@@ -1,13 +1,13 @@
-import React from "react"
-import {  } from "react-dom"
+import React, { Component } from "react";
 
-class HelloMessage extends React.Component {
+class App extends Component {
   render() {
     return (
       <div>
-        Hello {this.props.name}
+        Hello World
       </div>
     );
   }
 }
 
+export default App;
