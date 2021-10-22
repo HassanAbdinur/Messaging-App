@@ -2,3 +2,9 @@
     text-align: center;
 }
 
+.header-header {
+    font-size: calc(10px + 2vmin);
+    display: flex;
+    flex-direction: column;
+}
+
