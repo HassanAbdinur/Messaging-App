@@ -4,7 +4,7 @@ import './Header.css';
 class Header extends React.Component {
     render() {
         return (
-            <div className="">
+            <div className="header-header">
                 <h1 className="header">
                     CompuChat
                 </h1>
